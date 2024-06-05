@@ -11,7 +11,9 @@ git commit -m "message" [ staged files to local repository]
 
 git remote add service https://github.com/luminartechnolabkochi/ServiceGuru.git
 
-git push remotename branch [ local repository changes remote repository]
+git remote -v [list remote name]
+
+git push remotename branchname [ local repository changes remote repository]
 
 git pull [remote repo changes local repo]
 
